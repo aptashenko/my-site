@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+dist/
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local runtime data
+*.local
+.vite
+.cache
+.tmp
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# MacOS
+.DS_Store
+
+# System files
+Thumbs.db
+
+# Optional: If you're using TypeScript
+*.tsbuildinfo
+
+# Optional: OS files
+*.swp
+*.swo
+
+# Optional: Other build tools
+coverage/
+*.log
+*.tgz
+*.bak
+
+# Optional: lock files (uncomment if using specific lock file)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
